@@ -1,4 +1,5 @@
-/*
+/* The Temp_Hum code uses and esp32 and a high precision temperature and humidity sensor aht10,
+ to monitor the surrounding temperature and humidity. Based on the readings and specified thresholds, specific devices (humidifiers, airconditionsers etc.) can be automated.  
  * Room Climate Monitor
  * Board  : ESP32-WROOM
  * Sensor : AHT10  — I2C : D21=SDA, D22=SCL
